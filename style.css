@@ -1,6 +1,12 @@
+@import url(@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap'););
+
 * {
     margin: 0;
     padding: 0;
+}
+
+body {
+    font-family: "Oswald", sans-serif;
 }
 
 .cabecalho {
@@ -13,7 +19,9 @@
 }
 
 .cabecalho-imagem {
-    width: 100%;
+    width: 100px;
+    height: 90px;
+    border-radius: 50%;
 }
 
 .cabecalho-lista-items {
